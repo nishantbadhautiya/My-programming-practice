@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.img-container{
+    height: 100vh;
+    background-image: url(images/developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-container{
+    padding-top:80px;
+    margin-left: 350px;
+    text-align: left;
+    width: 900px;
+    height: 230px;
+}
+.text-container h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.text-container h3 span{
+    font-weight: bolder;
+    color: white;
+    font-size: 60px;
+}
+.text-container h1{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.black-section{
+    background-color: black;
+    width: 100vw;
+    height:160px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    padding-top: 36px;
+    font-weight: 600;
+}
+.developer{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2px 3px;
+}
+.web-developer{
+    height: 380px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px 4px gray;
+}
+.app-developer{
+    height: 380px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px 4px gray;
+}
+.uiux-developer{
+    height: 380px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px 4px gray;
+}
