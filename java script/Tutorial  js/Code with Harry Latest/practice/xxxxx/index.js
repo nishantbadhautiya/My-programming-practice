@@ -1,3 +1,11 @@
-let arr = [1,2,55,21,26,73,27]
-console.log(arr)
-console.table(arr);
+function loadscript(src) {
+    let script = document.createElement("script");
+    script.src = src;
+    script.onload = function () {
+        console.log("script loaded with src: " + src);
+    }
+    document.body.appendChild(script);
+
+}
+
+loadscript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js")
