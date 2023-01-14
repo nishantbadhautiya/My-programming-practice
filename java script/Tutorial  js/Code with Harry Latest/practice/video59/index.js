@@ -37,3 +37,74 @@
 //     let b = await cherry()
 // }
 // main1()
+
+
+
+
+// async function nishant() {
+//     let delhiweather = new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("27 deg");
+//         }, 2000);
+//     })
+//     let bangloreweather = new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("21 deg");
+//         }, 4000);
+//     })
+//     // delhiweather.then(console.log);
+//     // bangloreweather.then(console.log);
+//     console.log("fetching delhi weather, please wait....");
+//     let delhiw = await delhiweather;
+//     console.log("fetched delhi weather: " + delhiw);
+
+//     console.log("fetching banglore weather, please wait....");
+//     let banglorew = await bangloreweather;
+//     console.log("fetched banglore weather: " + banglorew);
+//     return [delhiw, banglorew];
+// }
+// console.log("welcome to weather control room: ");
+// let a = nishant();
+// a.then((value)=>{
+//     console.log(value);
+// })
+
+
+
+
+
+
+
+
+
+async function nishant() {
+    let delhiweather = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("27 deg");
+        }, 2000);
+    })
+    let bangloreweather = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("21 deg");
+        }, 4000);
+    })
+    // delhiweather.then(console.log);
+    // bangloreweather.then(console.log);
+    console.log("fetching delhi weather, please wait....");
+    let delhiw = await delhiweather;
+    console.log("fetched delhi weather: " + delhiw);
+
+    console.log("fetching banglore weather, please wait....");
+    let banglorew = await bangloreweather;
+    console.log("fetched banglore weather: " + banglorew);
+    return [delhiw, banglorew];
+}
+const cherry = async() => {
+    console.log("Hey! i am cherry and i am now  waiting");
+}
+const main1 = async() => {
+    console.log("welcome to weather control room: ");
+    let a = await nishant();
+    let b = await cherry();
+}
+main1();
