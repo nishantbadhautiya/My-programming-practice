@@ -9,9 +9,12 @@
 //     console.log("The Marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]]);
 // }
 
+
 // // for (let a in obj) {
 // //     console.log("The marks of " + a + " is " + obj[a]);
 // // }
+
+
 
 
 //problem 03
@@ -24,7 +27,7 @@
 // }
 // console.log("You entered Correct Number");
 
-const mean = (a, b, c, d, e) =>{
-    return (a+b+c+d+e)/5;
+const mean = (a, b, c, d, e) => {
+    return (a + b + c + d + e) / 5;
 }
-console.log(mean(1,2,3,4,5))
+console.log(mean(1, 2, 3, 4, 5))

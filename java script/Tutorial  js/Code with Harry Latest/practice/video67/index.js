@@ -13,10 +13,6 @@
 //   .then((response) => response.json())
 //   .then((value) => console.log(value));
 
-// const { method } = require("lodash")
-// const { json } = require("stream/consumers")
-
-
 
 
 
@@ -75,4 +71,3 @@
 //     console.log(await getTodo(8))
 // }
 // mainFunc()
-
