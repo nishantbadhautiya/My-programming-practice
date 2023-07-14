@@ -1,0 +1,7 @@
+{
+    "name": "Harry",
+    "score": 11.53,
+    "isAdmin": false,
+    "licence" : null,
+    "shopItem" : ["food", "clothes", "sunflower oil"]
+}

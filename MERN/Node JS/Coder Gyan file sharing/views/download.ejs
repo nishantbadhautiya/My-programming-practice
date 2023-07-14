@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileSharing App</title>
+</head>
+<body>
+    <h1>File sharing App</h1>
+    <% if(locals.error){ %>
+        <h3><%= locals.error %></h3>
+        <% }else{ %>
+            <h2>Your File is ready to Download</h2>
+            <h4>File Name is: <%= filename %></h4>
+            <h4>File size is : <%= Math.round((filesize)/1000) %> KB</h4>
+            <h4><a href="<%= downloadlink %>">Click here to Download</a></h4>
+            <h4>This file was created on : <%= createdate %>
+            </h4>
+            <h4>This file was modified on : <%= updatedate %>
+            </h4>
+            <h4>You can also Download this file by pasting this link in your url: <%= downloadlink %>
+            </h4>
+            <%} %>
+</body>
+</html>

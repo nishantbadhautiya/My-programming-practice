@@ -1,0 +1,43 @@
+@import url('mixing');
+@import url('var');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+//1: operators
+//2: variables
+//3: nesting
+//4: mixing
+//5: parameters
+//6: partials
+
+.main_header {
+    width: 100vw;
+    height: 100vh;
+    @include flexprop();
+    place-items: center;
+    background: $bg-color;
+    h1 {
+        @include commoncode(0.2rem, red, uppercase);
+
+        &:hover {
+            color: aliceblue;
+        }
+
+        &::after {
+            content: ' channel2';
+        }
+    }
+    p {
+        @include commoncode(0.3rem, green, capitalize);
+
+        &:hover {
+            color: bisque;
+        }
+    }
+}

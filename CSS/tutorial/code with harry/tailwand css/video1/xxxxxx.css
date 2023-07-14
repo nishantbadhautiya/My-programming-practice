@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  

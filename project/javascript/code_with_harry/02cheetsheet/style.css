@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Potta One', cursive;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 76px;
+    font-size: 30px;
+}
+.logo img{
+    width: 34px;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    width: 60vw;
+    margin: auto;
+    padding: 32px 0px;
+    font-weight: bold;
+}
+.logo{
+    padding: 0px 20px;
+}
+.copy-to-clipboard-button{
+    cursor: pointer !important;
+    color: red !important;
+    border: 1px solid white !important;
+    border-radius: 10px !important;
+    padding: 5px !important;
+}

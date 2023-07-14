@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/images/bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+}
+.taskbar{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    z-index: 77;
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+.startmenu{
+    width: 100vw;
+    position: absolute;
+    bottom: -660px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.icons img{
+    color: white;
+    width: 60px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.icons h5{
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+
+
+/* .right_click_options{
+    width: 130px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25.4px;
+    padding-left: 22px;
+    background-color: white;
+} */

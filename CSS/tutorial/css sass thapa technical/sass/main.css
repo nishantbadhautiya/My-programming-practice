@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  place-items: center;
+  background: #5644af;
+}
+.main_header h1 {
+  text-transform: uppercase;
+  color: red;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+}
+.main_header h1:hover {
+  color: aliceblue;
+}
+.main_header h1::after {
+  content: " channel2";
+}
+.main_header p {
+  text-transform: capitalize;
+  color: green;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+}
+.main_header p:hover {
+  color: bisque;
+}/*# sourceMappingURL=main.css.map */

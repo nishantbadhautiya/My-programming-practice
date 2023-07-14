@@ -1,0 +1,16 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: auto 12px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+The number is: 67 
+Thanks for using fprintf

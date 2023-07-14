@@ -1,0 +1,15 @@
+# a= {}
+# print(type(a))
+# print(a)
+# creation of empty sets
+a= set()
+print(type(a))
+a.add(4)
+a.add(6)
+a.add(6)
+# a.add([33,63,12])
+a.add((34,62,11))
+# a.add({3,6,22})
+print(a)
+a.clear()
+print(a)
