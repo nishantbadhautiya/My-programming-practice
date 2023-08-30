@@ -96,8 +96,8 @@
 # print(str0.isspace())
 # str1 = "            "       #using Spacebar           Output = True
 # print(str1.isspace())
-# str2 = "        "       #using Tab                Output = True
-# print(str2.isspace())   #The isspace() method returns True only and only if the string contains white spaces, else returns False.
+# str2 = "    \n\t    "       #using Tab                Output = True
+# print(str2.isspace())   #The isspace() method returns True only and only if the string contains only white space, \n and \t only  else it will returns False.
 
 
 
@@ -134,8 +134,3 @@
 
 # str1 = "He's name is Dan. Dan is an honest man."
 # print(str1.title())   #The title() method capitalizes each letter of the word within the string.
-
-
-
-
-

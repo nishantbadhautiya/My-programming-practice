@@ -42,7 +42,7 @@
 
 
 # for i in range(11):
-#     print(i)   # prints 1 to 10
+#     print(i)   # prints 0 to 10
 
 
 
@@ -54,7 +54,6 @@
 
 # for i in range(1,11,3):
 #     print(i)   # prints 1 to 11 at the difference of 3
-
 
 
 

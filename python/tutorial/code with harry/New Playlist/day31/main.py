@@ -1,4 +1,4 @@
-# SET:- * These are unordered type cannot access by index, Don't store duplicate items, unchangable
+# SET:- * These are unordered type cannot access by index, Don't store duplicate items, unchangable, can modify
 
 info = {"Nishant", 12, True, None, 5000.09}
 print(info)
