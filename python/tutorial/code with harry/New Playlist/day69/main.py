@@ -12,6 +12,7 @@ class Employee:
 e1 = Employee()
 e1.name = "Nishant"
 e1.show()
+print(Employee.company)
 e1.change_company("Tesla")
 e1.show()
 print(Employee.company)

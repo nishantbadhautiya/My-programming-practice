@@ -11,8 +11,8 @@
 # a.add_to_num(6)
 # print(a.num)
 
-# # print(a.add(3,5))
-# print(Math.add(12,23))
+# # print(a.add(3,5))  #calling the add method using instance of the class 
+# print(Math.add(12,23))  #calling the add method using class 
 
 
 
