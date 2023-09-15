@@ -7,7 +7,7 @@
 # @greet
 # def hello():
 #     print("Hello World")
-# # greet(hello())   # can also do this it's similar to @greet and calling the function to do so remove @greet
+# # greet(hello)()   # can also do this it's similar to @greet and calling the function to do so remove @greet
 # hello()
 
 
