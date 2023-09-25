@@ -6,7 +6,6 @@ This repository contains my programming practice files and projects.
 
 - [Introduction](#introduction)
 - [Languages](#languages)
-<!-- - [Projects](#projects) -->
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -20,11 +19,11 @@ Feel free to explore and use the code for your own learning purposes.
 ## Languages
 
 I practice using several programming languages, including:
-- [Python](/tree/master/python)
-- [JavaScript](/tree/master/java%20script)
-- [DSA](/tree/master/DSA)
-- [C++](tree/master/c%2B%2B)
-- [C](tree/master/c/tutorial/code%20with%20harry)
+- [Python](https://github.com/nishantbadhautiya/My-programming-practice/tree/master/python)
+- [JavaScript](https://github.com/nishantbadhautiya/My-programming-practice/tree/master/java%20script)
+- [DSA](https://github.com/nishantbadhautiya/My-programming-practice/tree/master/DSA)
+- [C++](https://github.com/nishantbadhautiya/My-programming-practice/tree/master/c%2B%2B)
+- [C](https://github.com/nishantbadhautiya/My-programming-practice/tree/master/c)
 
 ## Contributing
 
@@ -34,4 +33,4 @@ Please follow my [Instagram](https://www.instagram.com/nishantbadhautiya/?next=%
 
 ## License
 
-This repository is open-sourced under the [MIT License](LICENSE).
+This repository is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
