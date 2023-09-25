@@ -9,5 +9,6 @@
 # Rotate screen package
 
 
-
-
+import time
+t = time.timezone()
+print(t)
