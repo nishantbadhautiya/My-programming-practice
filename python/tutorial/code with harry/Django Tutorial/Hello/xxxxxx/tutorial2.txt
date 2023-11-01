@@ -1,0 +1,44 @@
+python .\manage.py shell
+
+In [1]: from home.models import Contact
+
+In [2]: Contact.objects.all()
+Out[2]: <QuerySet [<Contact: Nishant Badhautiya>, <Contact: Rahul>, <Contact: Aman>, <Contact: Varun Kumar >, <Contact: hello>, <Contact: hello>, <Contact: hello>]>
+
+In [3]: Contact.objects.all()[0]
+Out[3]: <Contact: Nishant Badhautiya>
+
+In [4]: Contact.objects.all()[0].name
+Out[4]: 'Nishant Badhautiya'
+
+In [5]: Contact.objects.all()[0].email
+Out[5]: 'nishantbadhautiya100@gmail.com'
+
+In [6]: Contact.objects.all()[0].desc
+Out[6]: 'I am a good boy'
+
+In [7]: Contact.objects.filter(name = "name")
+Out[7]: <QuerySet []>
+
+In [8]: Contact.objects.filter(name = "Nishant Badhautiya")
+Out[8]: <QuerySet [<Contact: Nishant Badhautiya>]>
+
+In [10]: Contact.objects.filter(name = "Nishant Badhautiya", phone = "983334459")
+Out[10]: <QuerySet []>
+
+
+In [13]: ins = Contact.objects.filter(name = "Nishant Badhautiya")[0]
+
+In [14]: ins.phone = "0123456789"
+
+In [15]: ins.save()
+
+In [22]: Contact.objects.filter(name = "hello")
+Out[22]: <QuerySet [<Contact: hello>, <Contact: hello>, <Contact: hello>]>
+
+In [23]: Contact.objects.filter(name = "hello").first()
+Out[23]: <Contact: hello>
+
+In [24]: Contact.objects.filter(name = "hello").last()
+Out[24]: <Contact: hello>
+

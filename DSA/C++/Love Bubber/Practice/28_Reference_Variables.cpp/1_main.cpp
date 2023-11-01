@@ -48,7 +48,7 @@
 
 // #include <iostream>
 // using namespace std;
-// int &func(int a) // Bad Practice
+// int &func(int a) // Bad Practice because of "return references to local variables"
 // {
 //     int num = a;
 //     int &ans = num;
@@ -112,20 +112,20 @@
 
 // *****************************************************************************************
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    // case 1
-    while (true)
-    {
-        int i = 5; // it will create in stack and after going outside memory will be release
-    }
-    // case 2
-    while (true)
-    {
-        int *ptr = new int; // it will create in heap but it will not release after going outside of loop
-        delete ptr;
-    }
-    return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     // case 1
+//     while (true)
+//     {
+//         int i = 5; // it will create in stack and after going outside memory will be release
+//     }
+//     // case 2
+//     while (true)
+//     {
+//         int *ptr = new int; // it will create in heap but it will not release after going outside of loop
+//         delete ptr;
+//     }
+//     return 0;
+// }

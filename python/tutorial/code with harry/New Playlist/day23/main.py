@@ -93,7 +93,7 @@
 # color.pop()   # removes last element of the list
 # color.pop(2)  # removes 2nd index element of the list
 # print(color)
-
+ 
 
 
 

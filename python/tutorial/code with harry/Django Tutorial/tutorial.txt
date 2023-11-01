@@ -1,0 +1,3 @@
+check django version ---->   python -m django --version
+update django -----> pip install --upgrade django
+create a django project -----> django-admin startproject Hello
