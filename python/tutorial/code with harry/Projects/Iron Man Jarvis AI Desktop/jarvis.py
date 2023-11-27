@@ -47,8 +47,8 @@ def takeCommand():
         print(e)
         print("Say that again please...")
         return "None"
-    # return query
-    return "send mail"
+    return query
+    # return "send mail"
 
 def sendmail(to, message):
     print(to)
@@ -113,10 +113,10 @@ if __name__ == "__main__":
     elif 'send mail' in query:
         try:
             to = "yenarep905@undewp.com"
-            # print("Tell me the message that you wants to send...")
-            # print("Listening...")
-            # message = takeCommand()
-            message = "hey! I am learning python programming language"
+            print("Tell me the message that you wants to send...")
+            print("Listening...")
+            message = takeCommand()
+            # message = "hey! I am learning python programming language"
             sendmail(to, message)
             speak("Successfully send the mail")
         except Exception as e:
