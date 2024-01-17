@@ -20,6 +20,9 @@ print(pd.__version__)
 # # Deactivate the virtual environment
 # deactivate
 
+# install the different pandas version 
+# pip3 install pandas==1.4.4
+
 
 # # see the list of all installed packages in that virtual environment
 # pip freeze
