@@ -1,0 +1,19 @@
+# %%
+import matplotlib.pyplot as plt 
+import numpy as np 
+import pandas as pd 
+
+
+# %%
+print("Hello world")
+
+# %%
+x = 23
+
+# %%
+arr = np.array([2,3,5])
+
+# %%
+print(arr)
+
+
