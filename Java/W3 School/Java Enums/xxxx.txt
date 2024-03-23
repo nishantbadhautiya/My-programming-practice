@@ -1,0 +1,3 @@
+vs code update
+ubuntu update
+adb tool for samsung (for knox security break)
